@@ -29,12 +29,94 @@ div {
     background: aqua;
 }
 #leftTop {
+    overflow: auto;
     border-radius: 8px;
     width: 386px;
     height: 371px;
     margin-bottom: 16px;
     background: aqua;
 }
+#leftTop select{
+    margin-left: 16px;
+    border-radius: 8px;
+    width: 353.49px;
+    height: 34px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+#leftTop h2{
+    width: max-content;
+    height: 21px;
+    margin-top: 15px;
+    margin-bottom: 36px;
+    margin-left: 16.31px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#leftTop p{
+    margin-top: 0;
+    margin-bottom: 20px;
+    width: 323px;
+    margin-left: 16px;
+    height: 23.39px;
+}
+#leftTop input{
+    position: relative;
+    top: 2px;
+    float: left;
+    margin-left: 0;
+}
+#leftTop a{
+    display: block;
+    font-size: 16px;
+    width: 270px;
+    height: 23.39px;
+    position: relative;
+    float: left;
+    bottom: 6px;
+}
+#leftDown {
+    overflow: auto;
+    border-radius: 8px;
+    width: 386px;
+    height: 308px;
+    background: aqua;
+}
+#leftDown h2{
+    width: max-content;
+    height: 21px;
+    margin-top: 15px;
+    margin-bottom: 13px;
+    margin-left: 16.31px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+#leftDown p{
+    height: 20px;
+    margin-top: 0;
+    width: 323px;
+    margin-left: 16px;
+}
+#leftDown input{
+    position: relative;
+    top: 6px;
+    float: left;
+    margin-left: 0;
+}
+
+#leftDown a{
+    width: 270px;
+    height: 23.39px;
+    display: block;
+    float: left;
+}
+
 .block {
     border-radius: 8px;
     float: left;
@@ -73,12 +155,6 @@ div {
     background: darkgray;
 
 }
-#leftDown {
-    border-radius: 8px;
-    width: 386px;
-    height: 308px;
-    background: aqua;
-    }
 
 #header {
 
@@ -96,9 +172,16 @@ div {
     width: 100%;
     height: 50px;
     background: #b0e8f4;
-
-
 }
+.graph {
+    position: relative;
+    left: 125px;
+    width:150px;
+    height: 61px;
+    background: brown;
+    margin-bottom: 24px;
+}
+
 
 
 
