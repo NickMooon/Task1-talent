@@ -138,6 +138,7 @@ div {
     font-size: 13px;
 }
 .block h2 {
+    position: relative;
     width: 276px;
     margin-top: 7px;
     margin-bottom: 0;
@@ -180,6 +181,14 @@ div {
     height: 61px;
     background: brown;
     margin-bottom: 24px;
+}
+.min{
+    float: right;
+    margin-top: 8.85px;
+    margin-right: 8px;
+    width: min-content;
+    height: 16px;
+    background: orange;
 }
 
 
