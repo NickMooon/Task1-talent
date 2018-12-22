@@ -1,0 +1,105 @@
+/* CSS Document */
+div {
+
+}
+
+#wrapper {
+    width: 1590px;
+    position: relative;
+    padding: 97px 20px;
+    height: 695px;
+    border: 1px solid;
+}
+
+#main {
+    width: 700px;
+    float: right;
+    background: #a5f0e6;
+    height: 500px;
+    clear: left;
+}
+
+#right {
+    border-radius: 8px;
+    padding-top: 63px;
+    padding-bottom: 68px;
+    float: right;
+    width: 1188px;
+    height: 564px;
+    background: aqua;
+}
+#leftTop {
+    border-radius: 8px;
+    width: 386px;
+    height: 371px;
+    margin-bottom: 16px;
+    background: aqua;
+}
+.block {
+    border-radius: 8px;
+    float: left;
+    width: 374px;
+    height: 274px;
+    background: burlywood;
+    margin-left: 16px;
+    margin-bottom: 24px;
+}
+.block p {
+    width: 276px;
+    height: 19px;
+    margin-top: 19px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    font-size: 13px;
+}
+.block h2 {
+    width: 276px;
+    margin-top: 7px;
+    margin-bottom: 0;
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.page{
+    height: 134px;
+    margin-top: 9px;
+    background: darkgray;
+
+}
+#leftDown {
+    border-radius: 8px;
+    width: 386px;
+    height: 308px;
+    background: aqua;
+    }
+
+#header {
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background: #b0e8f4;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #b0e8f4;
+
+
+}
+
+
+
+
