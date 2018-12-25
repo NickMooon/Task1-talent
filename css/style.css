@@ -2,17 +2,26 @@
 div {
 
 }
-
+ html, body{
+     padding: 0;
+     margin: 0;
+ }
+div ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
 #wrapper {
-    width: 1590px;
+    width: 95%;
+    max-width: 1590px;
     position: relative;
     padding: 97px 20px;
     height: 695px;
     border: 1px solid;
+    margin: 0 auto;
 }
 
 #main {
-    width: 700px;
+    width: 44.02515723%;
     float: right;
     background: #a5f0e6;
     height: 500px;
@@ -20,13 +29,18 @@ div {
 }
 
 #right {
+    position: absolute;
+    right: 20px;
+    top: 97px;
+    float: right;
     border-radius: 8px;
     padding-top: 63px;
     padding-bottom: 68px;
-    float: right;
-    width: 1188px;
+    width: calc(100% - 438px);
+    /*width: 74.71698113%;*/
     height: 564px;
     background: aqua;
+    overflow: auto;
 }
 #leftTop {
     overflow: auto;
@@ -116,7 +130,27 @@ div {
     display: block;
     float: left;
 }
-
+@media screen and (max-width: 910px){
+    #wrapper{
+        padding: 0;
+        height: max-content;
+    }
+    #leftTop, #leftDown{
+        margin: 16px auto;
+    }
+    #right {
+        width: min-content;
+        right: 0;
+        top: 0;
+        padding: 20px 0;
+        position: relative;
+        float: none;
+        margin: 0 auto;
+    }
+    .block {
+        margin-right: 12px;
+    }
+}
 .block {
     border-radius: 8px;
     float: left;
