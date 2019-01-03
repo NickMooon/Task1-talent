@@ -12,6 +12,7 @@ div ::-webkit-scrollbar {
     height: 5px;
 }
 .add{
+    background: inherit;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
     font-style: normal;
@@ -25,8 +26,7 @@ div ::-webkit-scrollbar {
     height: 34px;
     font-weight: normal;
     line-height: 16px;
-    font-size: 18px;
-    text-align: center;
+    font-size: 16px;
     color: #337AB7;
 }
 #wrapper {
@@ -146,6 +146,7 @@ div ::-webkit-scrollbar {
         text-align: center;
     }
     #wrapper{
+        min-width: 460px;
         padding: 0;
         height: max-content;
     }
