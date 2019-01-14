@@ -1,17 +1,21 @@
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
 div {
 
 }
- html, body{
-     padding: 0;
-     margin: 0;
- }
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
 div ::-webkit-scrollbar {
     width: 5px;
     height: 5px;
 }
-.add{
+
+.add {
     background: inherit;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
@@ -29,6 +33,7 @@ div ::-webkit-scrollbar {
     font-size: 16px;
     color: #337AB7;
 }
+
 #wrapper {
     width: 95%;
     max-width: 1590px;
@@ -53,6 +58,12 @@ div ::-webkit-scrollbar {
     background: #FFFFFF;
     overflow: auto;
 }
+#right1{
+
+    width: 100%;
+    height: 501px;
+}
+
 #leftTop {
     overflow: auto;
     border-radius: 8px;
@@ -61,7 +72,8 @@ div ::-webkit-scrollbar {
     margin-bottom: 16px;
     background: #FFFFFF;
 }
-#leftTop select{
+
+#leftTop select {
     margin-left: 16px;
     border-radius: 8px;
     width: 353.49px;
@@ -69,7 +81,8 @@ div ::-webkit-scrollbar {
     margin-top: 0;
     margin-bottom: 16px;
 }
-#leftTop h2{
+
+#leftTop h2 {
     width: max-content;
     height: 21px;
     margin-top: 15px;
@@ -81,20 +94,23 @@ div ::-webkit-scrollbar {
     font-size: 15px;
     text-transform: uppercase;
 }
-#leftTop p{
+
+#leftTop p {
     margin-top: 0;
     margin-bottom: 20px;
     width: 323px;
     margin-left: 16px;
     height: 23.39px;
 }
-#leftTop input{
+
+#leftTop input {
     position: relative;
     top: 2px;
     float: left;
     margin-left: 0;
 }
-#leftTop a{
+
+#leftTop a {
     display: block;
     font-size: 16px;
     width: 270px;
@@ -103,6 +119,7 @@ div ::-webkit-scrollbar {
     float: left;
     bottom: 6px;
 }
+
 #leftDown {
     overflow: auto;
     border-radius: 8px;
@@ -110,7 +127,8 @@ div ::-webkit-scrollbar {
     height: 308px;
     background: #FFFFFF;
 }
-#leftDown h2{
+
+#leftDown h2 {
     width: max-content;
     height: 21px;
     margin-top: 15px;
@@ -122,37 +140,43 @@ div ::-webkit-scrollbar {
     font-size: 15px;
     text-transform: uppercase;
 }
-#leftDown p{
+
+#leftDown p {
     height: 20px;
     margin-top: 0;
     width: 323px;
     margin-left: 16px;
 }
-#leftDown input{
+
+#leftDown input {
     position: relative;
     top: 6px;
     float: left;
     margin-left: 0;
 }
 
-#leftDown a{
+#leftDown a {
     width: 270px;
     height: 23.39px;
     display: block;
     float: left;
 }
-@media screen and (max-width: 910px){
+
+@media screen and (max-width: 910px) {
     h3 {
         text-align: center;
     }
-    #wrapper{
+
+    #wrapper {
         min-width: 460px;
         padding: 0;
         height: max-content;
     }
-    #leftTop, #leftDown{
+
+    #leftTop, #leftDown {
         margin: 16px auto;
     }
+
     #right {
         width: min-content;
         right: 0;
@@ -162,6 +186,7 @@ div ::-webkit-scrollbar {
         float: none;
         margin: 0 auto;
     }
+
     .block {
         margin-right: 12px;
     }
@@ -174,9 +199,9 @@ div ::-webkit-scrollbar {
     float: left;
     width: 374px;
     height: 274px;
-    margin-left: 16.5px;
     margin-bottom: 24px;
 }
+
 .block p {
     width: 276px;
     height: 19px;
@@ -188,6 +213,7 @@ div ::-webkit-scrollbar {
     line-height: 19px;
     font-size: 13px;
 }
+
 .block h2 {
     font-family: Roboto serif;
     position: relative;
@@ -202,14 +228,14 @@ div ::-webkit-scrollbar {
     line-height: 19px;
 }
 
-.page{
-    border: thin solid #F4F4F4 ;
+.page {
+    border: thin solid #F4F4F4;
     background: rgba(196, 196, 196, 0.1);
     height: 134px;
     margin-top: 9px;
-
 }
-.obj{
+
+.obj {
     width: 61px;
     height: 61px;
     border-radius: 50%;
@@ -226,37 +252,43 @@ div ::-webkit-scrollbar {
     color: #303030;
     margin-top: 22px
 }
-.sign{
+
+.sign {
     float: left;
     width: 24px;
     height: 24px;
     margin-top: 19px;
     margin-left: 23px;
-    margin-right: 76px ;
+    margin-right: 76px;
 }
-.achiv{
+
+.achiv {
     float: left;
     margin-top: 16px;
     margin-right: 18px;
     width: 30px;
     height: 30px;
 }
-.round{
+
+.round {
     border-radius: 50%;
 }
-.achiv img{
+
+.achiv img {
     width: 100%;
     height: 100%;
 }
+
 .graph {
     position: relative;
     left: 125px;
-    width:150px;
+    width: 150px;
     height: 61px;
     background: brown;
     margin-bottom: 24px;
 }
-.min{
+
+.min {
 
     font-family: Roboto, sans-serif;
     border-radius: 8px;
@@ -273,7 +305,8 @@ div ::-webkit-scrollbar {
     text-align: center;
     color: #DE8C18;
 }
-.min1{
+
+.min1 {
     box-sizing: border-box;
     font-family: Roboto, serif;
     border-radius: 8px;
@@ -290,21 +323,25 @@ div ::-webkit-scrollbar {
     text-align: center;
     color: #368AA2;
 }
-#chart_div{
+
+#chart_div {
     margin-left: 40px;
     width: 294px;
     height: 134px;
 }
-#chart_div1{
+
+#chart_div1 {
     width: 100%;
     height: 100%;
 }
-#chart_div2{
+
+#chart_div2 {
     width: 100%;
     height: 100%;
- }
-
-
+}
+.check{
+    border: 2px solid deepskyblue;
+}
 
 
 
